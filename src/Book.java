@@ -1,11 +1,7 @@
 public class Book {
     private  String title;
     private int yearBookRelease;
-
-    public static void getInfoBook() {
-    }
-
-    public Book(String title, Author author, int yearBookRelease) {
+       public Book(String title, Author author, int yearBookRelease) {
         this.title = title;
         this.yearBookRelease = yearBookRelease;
 
