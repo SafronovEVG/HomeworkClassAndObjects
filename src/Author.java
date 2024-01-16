@@ -2,6 +2,9 @@ public class Author {
     private String name;
     private String surname;
 
+    public Author() {
+
+    }
     public Author(String name, String surname) {
         this.name = name;
         this.surname = surname;
@@ -21,5 +24,13 @@ public class Author {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                '}';
     }
 }
